@@ -1,0 +1,40 @@
+h1{
+    color: rgb(61, 152, 255);
+}
+
+.MiClase {
+    color: blueviolet;
+}
+
+body {
+    color: darkorange;
+}
+
+#esDiferente {
+    color: greenyellow;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 5px 5px 20px color(grey);
+}
+
+div > h1 {
+    color: cornflowerblue;
+}
+
+#Bucaros {
+    color: blueviolet;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+#Bucaros:hover {
+    color:blue;
+    font-size: 200px;
+}
+
+p{
+    background-color: aqua;
+    opacity: 0.2;
+}
+
+

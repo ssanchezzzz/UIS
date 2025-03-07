@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="bucaros">
+        <input type="text", text= "ola">
+        <input type="submit", text ="texto">
+    </form>
+    <script> 
+        document.getElementById ("bucaros").addEventListener("submit",function(event){
+            event.preventDefault();
+        })
+    </script>
+    <!--
+    <script>
+        document.addEventListener("keydown", function(event){
+            console.log ("Bucaros " + event.key);
+        })
+        document.addEventListener("keyup", function(){
+            console.log ("solto la tecla " + event.key)
+        })
+    </script>
+    -->
+    <!--
+    <button id = "miBoton"> Boton </button>
+    <script>
+        document.getElementById("miBoton").addEventListener("click", function(){
+            alert("¡Tocaron el boton!")
+        })
+    </script>
+    -->
+    <!--
+    <h1 id = "identidad"> Titulo Inicial</h1>
+    <script>
+        let elemento = document.getElementById ("identidad");
+        setTimeout(function(){
+            elemento.textContent = "Titulo nuevo"
+            elemento.style.fontSize = "200px";
+            elemento.style.color = "red";
+            elemento.style.textAlign = "center";
+        }, 500);
+    </script>
+    -->
+    <!--
+    <form>
+        <input type="text" name = "nombre" value="Henry">
+        <input type="text" name = "nombre" value="Fabio">
+        <input type="text" name = "nombre" value="Pipe">
+        <input type="password" name = "contraseña">
+    </form>
+    <script>
+        let elemento = document.getElementsByName("nombre");
+        console.log (elemento.length)
+        for (let i = 0;i < elemento.length; i++){
+            console.log(elemento[i].value);
+        }
+
+    </script> 
+    -->
+
+
+    <!--
+    <h1 id="tituloPrincipal">Titulo principal</h1>
+    <script src="./js/code.js"></script>
+-->
+</body>
+</html>
